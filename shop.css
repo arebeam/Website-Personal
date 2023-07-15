@@ -1,0 +1,79 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: #444;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}    
+    
+.ul-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.a-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotocopy-content {
+    height: 50%;
+    width: 50%;
+}
+
+.tokopedia-content {
+    height: 40%;
+    width: 40%;
+}
+
+.container-footer {
+    color: white;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
